@@ -1,0 +1,251 @@
+
+
+
+body{margin: 0;
+box-sizing: border-box;
+background-color: #f1f1f1!important;}
+
+
+
+h3{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.left-content{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin: 15px 0 0 0;
+    height: fit-content;
+}
+
+.left-img{
+    position: relative;
+    background-color: white;
+}
+.left-img img{
+    width: 100%;
+    
+    
+}
+
+.padding-general{
+    padding: 15px;
+}
+
+.left-heading h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.contact{
+    background-color: white;
+    
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    
+    
+    
+}
+.contact-item i{
+    color: teal;
+    font-size: 1.1rem;
+}
+
+.contact-item p{
+    margin-left: 13px;
+    opacity: 0.7;
+}
+
+hr{
+    opacity: 0.4;
+    width: 93%;
+}
+.paragraph{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.progress{
+    background-color:rgb(179, 179, 179) ;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.percentage{
+    background-color: teal;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.percentage-1{
+    width: 90%;
+}
+.percentage-2{
+    width: 80%;
+}
+.percentage-3{
+    width: 75%;
+}
+.percentage-4{
+    width: 50%;
+}
+.percentage-100{
+    width: 100%;
+}
+
+.percentage-5{
+    width: 30%;
+}
+
+.height{
+   height:  25px;
+}
+
+
+@media all and (min-width:600px){
+    .container{
+        display: flex;
+    }
+    .right-content{
+        margin-left: 15px;
+    }
+
+
+    .left-content{
+width: 40%;
+
+    }
+
+    .right-content{
+width: 60%;
+
+    }
+    .f-p3{
+        
+        width: 80%;
+    
+    }
+}
+
+
+
+@media all and (min-width:800px){
+    
+
+    .left-content{
+width: 30%;
+    }
+
+    .right-content{
+width: 70%;
+
+    }
+    .f-p3{
+        
+        width: 80%;
+    
+    }
+}
+
+
+@media all and (min-width:1200px){
+    
+
+    .left-content{
+width: 25%;
+    }
+
+    .right-content{
+width: 75%;
+
+    }
+}
+
+/****************************right**************************/
+/* .right-content{
+    margin-left: 15px;
+} */
+.right-a,.right-b{
+    
+    background-color: white;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+
+
+.free-paragraph{
+    margin-left: 30px;
+}
+.f-p2{
+    font-size: 1.3rem;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+
+.f-p1{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.f-pg{
+    color: teal;
+    font-weight: 200;
+}
+.contact-item span{
+    background-color: teal;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+ 
+}
+
+.mr-l{
+    margin-left: 16px;
+}
+
+
+.f-p3{
+    text-align: start;
+    width: 93%;
+
+}
+
+.right-content .right-a .contact-item .fa-briefcase ,.right-b .contact-item .fa-certificate{
+    font-size: 30px;
+}
+
+.margin-general{
+    margin: 0 30px 35px 30px;
+}
+
+
+.last-p{
+    padding-bottom: 15px;
+}
+.mt-b{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer{
+    border: solid;
+    text-align: center;
+    padding: 10px 0;
+    background-color: teal;
+    color: white;
+}
+footer i:hover{
+    color: green;
+    cursor: pointer;
+}
